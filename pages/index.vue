@@ -1,25 +1,8 @@
 <template>
-  <!-- <div class="bg-gray-200 flex justify-between h-full">
-    <Navigation />
-    <div class="flex-1 w-full">
-      <div class="header flex space-x-2">
-        <img
-          src="https://www.pngarts.com/files/4/Pokeball-PNG-Image-Background.png"
-          class="h-10"
-          alt=""
-        />
-        <h1 class="text-3xl font-extrabold text-gray-800">Pokédex</h1>
-      </div>
-      <div class="body mt-8">
-        <PokemonList />
-      </div>
-    </div>
-    <ProfileContainer />
-  </div> -->
   <div class="bg-gray-200 h-full w-sreen flex">
     <Navigation />
     <div class="flex-1 p-8">
-      <h1>POKEDEX</h1>
+      <h1 class="text-3xl font-bold text-gray-800">POKEDEX</h1>
       <PokemonList />
     </div>
     <div class="bg-red-200 w-80 rounded-l-3xl shadow-xl h-screen sticky top-0">
