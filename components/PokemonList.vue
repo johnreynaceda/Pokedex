@@ -37,7 +37,7 @@ export default {
  
     async getPokemons() {
       this.pokemons = await this.$axios
-        .get('https://pokeapi.co/api/v2/pokemon?limit=20')
+        .get('https://pokeapi.co/api/v2/pokemon?limit=50')
         .then((res) => {
           return res.data.results
         })

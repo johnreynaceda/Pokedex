@@ -19,13 +19,7 @@
                  <h1 v-for="(type, index) in pokemon.types" :key="index" :class="typeColor(type.type.name)" class=" px-3 pb-1 text-white rounded-lg">{{type.type.name}}</h1>
                </div>
              </div>
-             <div class="mt-4">
-               <h1 class="text-lg font-bold text-gray-700">WEAKNESS</h1>
-               <div class="mt-2 flex space-x-2">
-                 <h1 class="bg-blue-300 px-3 pb-1 rounded-lg">sdsdsd</h1>
-                 <h1 class="bg-blue-300 px-3 pb-1 rounded-lg">sdsdsd</h1>
-               </div>
-             </div>
+             
              </div>
            <div class=" flex-1">
             
@@ -80,48 +74,7 @@
          </div>
      </div>
     </div>
-    <div class="bg-red-200 w-80 rounded-l-3xl shadow-xl h-screen sticky top-0">
-      <div class="content p-5">
-        <div class="bg-white rounded-xl shadow-lg px-2 py-3 flex flex-col">
-          <div class="flex space-x-2">
-            <div class="name flex flex-col">
-              <h1 class="font-bold text-gray-700">ASH KETCHUM</h1>
-              <h1
-                class="
-                  text-sm
-                  font-semibold
-                  text-blue-300 text-gray-700
-                  leading-3
-                "
-              >
-                Level 100
-              </h1>
-            </div>
-            <img
-              src="https://cdn2.bulbagarden.net/upload/thumb/9/91/Ash_M23.png/150px-Ash_M23.png"
-              alt=""
-              class=""
-            />
-          </div>
-
-          <div
-            class="
-              mt-5
-              bg-blue-400
-              rounded-lg
-              flex
-              justify-center
-              items-center
-              py-2
-              text-white
-              shadow-lg
-            "
-          >
-            <span>Edit Profile</span>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ProfileContainer/>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-200 w-80 rounded-l-3xl shadow-xl h-screen sticky top-0">
+  <div class="bg-red-500 w-80 rounded-l-3xl shadow-xl h-screen sticky top-0">
       <div class="content p-5">
         <div class="bg-white rounded-xl shadow-lg px-2 py-3 flex flex-col">
           <div class="flex space-x-2">
